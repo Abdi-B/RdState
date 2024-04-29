@@ -4,7 +4,11 @@ import Todo from './components/Todo';
 import Counter from './features/counter/Counter';
 import AddPostForm from './features/posts/AddPostForm';
 import PostList from './features/posts/PostList';
-import login from './page/login';
+import Login from './page/Login1';
+
+
+
+
 
 
 function App() {
@@ -16,7 +20,7 @@ function App() {
 
       {/* <Todo /> */}
 
-      <login />
+      <Login />
     </div>
   );
 }

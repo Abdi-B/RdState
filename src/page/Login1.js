@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const login = () => {
+const Login = () => {
 
     const [email, setemail] = useState('');
     const [password, setpassword] = useState('')
@@ -12,7 +12,7 @@ const login = () => {
     }
   return (
     <div>
-      <form>
+      <form className={{display: 'flex', flexDirection: 'column'}}>
         <input type='text' value={email} placeholder='email' onChange={(e) => setemail(e.target.value)}/>
         <input type='password' placeholder='password' value={password} onChange={(e) => { setpassword(e.target.value) }} />
         
@@ -22,4 +22,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
