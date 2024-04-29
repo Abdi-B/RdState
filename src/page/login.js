@@ -5,7 +5,9 @@ const login = () => {
     const [email, setemail] = useState('');
     const [password, setpassword] = useState('')
 
-    const hadleLogin = () => {
+    const handleLogin = (e) => {
+       e.preventDefault();
+      console.log(email, password)
 
     }
   return (
