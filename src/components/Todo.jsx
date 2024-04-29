@@ -7,6 +7,8 @@ import TodoList from './TodoList';
 // import { BsSearch, BsPlus } from 'react-icons/bs';
 import { addTodo, updateSearchTerm } from '../Redux/actions';
 
+import { ADD_TODO } from './../Redux/actionTypes';
+
 
 const Todo = () => {
   const todos = useSelector((state) => state.todos);
@@ -23,6 +25,12 @@ const Todo = () => {
     if (newTodoText.trim() !== '') {
       // handleAddTodo(newTodoText.trim());
       dispatch(addTodo(newTodoText.trim()));
+      
+      // dispatch(
+      //   type: ADD_TODO,
+      //   payload: {newTodoText.trim()}
+      // )
+
       setNewTodoText('');
     }
   };
