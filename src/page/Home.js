@@ -4,8 +4,8 @@ import { authActions } from '../ReduxToolkit/authSlice';
 
 const Home = () => {
     const dispatch = useDispatch();
-    const logoutHandler = ()=>{
-        dispatch(authActions.logout)
+    const logoutHandler = () =>{
+        dispatch(authActions.logout())
     }
   return (
     <div>
