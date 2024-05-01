@@ -14,6 +14,7 @@ const Login = () => {
       // console.log(email, password)
       
       dispatch(authActions.login());
+      
 
     }
   return (
