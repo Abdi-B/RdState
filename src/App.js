@@ -26,11 +26,14 @@ function App() {
 
       {/* <Todo /> */}
 
+
       {/* REDUX TOOLKIT EXAMPLE */}
 
      { !isLoggedIn && <Login />}
      { isLoggedIn && <Home />}
     </div>
   );
-}
+};
+
 export default App;
+
