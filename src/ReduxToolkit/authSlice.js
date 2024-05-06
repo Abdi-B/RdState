@@ -12,6 +12,7 @@ const authSlice = createSlice({
         logout(state, action) {
             state.isLoggedIn  = !state.isLoggedIn;
         }
+        // you define any method here
     }
 
 });
