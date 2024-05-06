@@ -7,7 +7,7 @@ const Login = () => {
   const dispatch = useDispatch();
 
     const [email, setemail] = useState('');
-    const [password, setpassword] = useState('')
+    const [password, setpassword] = useState('');
 
     const handleLogin = (e) => {
        e.preventDefault();
