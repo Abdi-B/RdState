@@ -14,7 +14,6 @@ const FilterButtons = () => {
   return (
     <div className="">
       <select
-        className=""
         value={currentFilter}
         onChange={(e) => handleFilter(e.target.value)}
       >
