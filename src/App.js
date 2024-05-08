@@ -26,7 +26,6 @@ function App() {
 
       {/* <Todo /> */}
 
-
       {/* REDUX TOOLKIT EXAMPLE */}
 
      { !isLoggedIn && <Login />}
