@@ -10,7 +10,6 @@ import {
     UPDATE_SEARCH_TERM,
   } from './actionTypes';
 
-
   const initialState = { 
     todos: [], 
     filter: 'ALL', 
