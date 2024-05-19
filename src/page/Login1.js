@@ -23,7 +23,7 @@ const Login = () => {
         <input type='text' value={email} placeholder='email' onChange={(e) => setemail(e.target.value)}/>
         <input type='password' placeholder='password' value={password} onChange={(e) => { setpassword(e.target.value) }} />
         
-        <button onClick={handleLogin}>Login</button>
+        <button onClick={}>Login</button>
       </form>
     </div>
   )
